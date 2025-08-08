@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolas Uchimura - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <div class="dot active" data-section="intro"></div>
+        <div class="dot" data-section="about"></div>
+        <div class="dot" data-section="projects"></div>
+        <div class="dot" data-section="contact"></div>
+    </div>
+
+    <!-- Intro Section -->
+    <section id="intro" class="full-screen">
+        <div class="intro-text" id="introText"></div>
+        <div class="scroll-hint">
+            <span>Scroll down</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <!-- Clouds and AWS Logos -->
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="cloud"></div>
+        <div class="aws-logo cloud-like"></div>
+        <div class="aws-logo cloud-like"></div>
+        <div class="aws-logo cloud-like"></div>
+
+        <div class="glass-container about-container hover-effect">
+            <div class="profile-pic">
+                <img src="IMG_8207.jpeg" alt="Profile Picture">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm <strong>Nicolas Uchimura</strong>, an aspiring <strong>Informatics Engineer</strong> with a passion for
+                    <strong>computer networks, cybersecurity, and cloud technologies</strong>.  
+                    I thrive on solving complex problems, building innovative solutions, and constantly expanding my knowledge in
+                    <strong>Python, Cloud computing, and network environments</strong>.
+                </p>
+                <p>
+                    My mission is to create reliable, scalable, and secure systems while staying on the cutting edge of technology.
+                    I'm always ready for new challenges that push my technical and creative limits.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <!-- Tech Icons -->
+        <i class="fas fa-server tech-icon"></i>
+        <i class="fas fa-code tech-icon"></i>
+        <i class="fas fa-network-wired tech-icon"></i>
+
+        <div class="glass-container projects-container">
+            <h2>Projects/Skills</h2>
+            <div class="projects-grid">
+                <div class="project-box">
+                    <h3>Python</h3>
+                    <div class="project-content">
+                        <p>Threading library, PyAutoGui for robust automations and Python fundamentals.</p>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <h3>Network</h3>
+                    <div class="project-content">
+                        <p>Network and Cloud Computing theory fundamentals and usage of <strong>GNS3</strong> and <strong>Cisco</strong> tools.</p>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <h3>Cibersecurity</h3>
+                    <div class="project-content">
+                        <p>Cybersecurity fundamentals and practical experiences (MIM).</p>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <h3>Terminal</h3>
+                    <div class="project-content">
+                        <p>Bash programming and terminal usage knowledge.</p>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <h3>Web Development</h3>
+                    <div class="project-content">
+                        <p>HTML, CSS and JavaScript fundamentals, animation and responsiveness.</p>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <h3>Hospital Urgencies</h3>
+                    <div class="project-content">
+                        <p><strong>Python</strong> program that works for an intelligent patients distribution according to the level of urgency, using <strong>threads</strong>.</p>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <h3>Git</h3>
+                    <div class="project-content">
+                        <p>Strong tool totally useful for team works.</p>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <h3>Java</h3>
+                    <div class="project-content">
+                        <p><strong>Tkinter</strong>, <strong>Oriented Project Programming</strong> and <strong>Java Swing</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smooth Divider -->
+    <div class="section-divider"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section light-section">
+        <div class="contact-particles" id="contactParticles"></div>
+        <div class="glass-container contact-container hover-effect">
+            <h2>Let's Connect!</h2>
+            <p class="contact-subtitle">I'm always open to discussing new opportunities, projects, or just chatting about tech!</p>
+            
+            <div class="contact-methods">
+                <!-- Email Card -->
+                <div class="contact-card email-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <div class="email-name"><a href="mailto:nicolasruchimura@gmail.com" class="contact-link">nicolasruchimura@gmail.com</a></div>
+                    <div class="contact-wave"></div>
+                </div>
+                
+                <!-- LinkedIn Card -->
+                <div class="contact-card linkedin-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/nicolas-uchimura/" target="_blank" class="contact-link">Connect</a>
+                    <div class="contact-wave"></div>
+                </div>
+                
+                <!-- GitHub Card -->
+                <div class="contact-card github-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/nicolasruchimura" target="_blank" class="contact-link">My projects</a>
+                    <div class="contact-wave"></div>
+                </div>
+            </div>
+            
+            <div class="contact-footer">
+                <p>Or send me a message directly:</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" class="form-input">
+                    <input type="email" placeholder="Your Email" class="form-input">
+                    <textarea placeholder="Your Message" class="form-textarea"></textarea>
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
